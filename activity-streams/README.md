@@ -23,7 +23,7 @@ export COMMUNITY_UUID=bcca6081-d575-499f-829b-9a81550fa612
 ````
 
 
-## Retreiving Activity Streams
+## Retrieving Activity Streams
 
 
 ### Get details of an activity stream
@@ -101,6 +101,8 @@ curl https://apps.collabservnext.com/connections/opensocial/basic/rest/activitys
 **Result:**
 
 ![activity](activity-03.png)
+
+Reference: [Templated Event Titles](http://www-10.lotus.com/ldd/appdevwiki.nsf/xpAPIViewer.xsp?lookupName=API+Reference#action=openDocument&res_title=Templated_event_titles_ic50&content=apicontent)
 
 ### 4. Activity with templated title & target
 
