@@ -13,10 +13,10 @@
 	},
 	"verb": "post",
 	"title": "${post.target}",
-	"content": "<div>[<strong>event</strong>.<em>content</em>]</div>",
+	"content": "[event.content]",
 	"object": {
 		"objectType": "note",
-		"id": "example.ibm.connect.007",
+		"id": "example.ibm.connect.006",
 		"displayName": "[event.object.displayName]",
 		"url": "https://davidsimpson.me/#event.object.url",
 		"summary": "[object.summary]"
