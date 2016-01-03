@@ -43,6 +43,8 @@ curl https://apps.collabservnext.com/connections/opensocial/basic/rest/activitys
 
 Using **Basic Auth:**
 
+[activity-01.json]
+
 ````
 curl https://apps.collabservnext.com/connections/opensocial/basic/rest/activitystreams/urn:lsid:lconn.ibm.com:communities.community:$COMMUNITY_UUID/@all/@all \
      --user $USERNAME:$PASSWORD \
@@ -68,6 +70,8 @@ curl https://apps.collabservnext.com/connections/opensocial/oauth/rest/activitys
 
 ### 2. Basic Activity with title
 
+[activity-02.json]
+
 
 ````
 curl https://apps.collabservnext.com/connections/opensocial/basic/rest/activitystreams/urn:lsid:lconn.ibm.com:communities.community:$COMMUNITY_UUID/@all/@all \
@@ -83,6 +87,8 @@ curl https://apps.collabservnext.com/connections/opensocial/basic/rest/activitys
 
 ### 3. Activity with templated title
 
+[activity-03.json]
+
 
 ````
 curl https://apps.collabservnext.com/connections/opensocial/basic/rest/activitystreams/urn:lsid:lconn.ibm.com:communities.community:$COMMUNITY_UUID/@all/@all \
@@ -97,6 +103,8 @@ curl https://apps.collabservnext.com/connections/opensocial/basic/rest/activitys
 ![activity](activity-03.png)
 
 ### 4. Activity with templated title & target
+
+[activity-04.json]
 
 
 ````
@@ -116,6 +124,8 @@ curl https://apps.collabservnext.com/connections/opensocial/basic/rest/activitys
 
 ### 5. Activity with templated title & rollup (doesn't work)
 
+[activity-05.json]
+
 
 ````
 curl https://apps.collabservnext.com/connections/opensocial/basic/rest/activitystreams/urn:lsid:lconn.ibm.com:communities.community:$COMMUNITY_UUID/@all/@all \
@@ -132,6 +142,8 @@ curl https://apps.collabservnext.com/connections/opensocial/basic/rest/activitys
 
 
 ### 6. Activity with generator
+
+[activity-06.json]
 
 
 ````
@@ -150,6 +162,8 @@ curl https://apps.collabservnext.com/connections/opensocial/basic/rest/activitys
 
 ### 7. Activity with basic HTML content
 
+[activity-07.json]
+
 
 ````
 curl https://apps.collabservnext.com/connections/opensocial/basic/rest/activitystreams/urn:lsid:lconn.ibm.com:communities.community:$COMMUNITY_UUID/@all/@all \
@@ -167,6 +181,8 @@ curl https://apps.collabservnext.com/connections/opensocial/basic/rest/activitys
 
 ### 8. Activity with opensocial/embedded experience
 
+[activity-08.json]
+
 
 ````
 curl https://apps.collabservnext.com/connections/opensocial/basic/rest/activitystreams/urn:lsid:lconn.ibm.com:communities.community:$COMMUNITY_UUID/@all/@all \
@@ -183,6 +199,8 @@ curl https://apps.collabservnext.com/connections/opensocial/basic/rest/activitys
 
 
 ### 9. Putting it all together
+
+[activity-09.json]
 
 
 ````
