@@ -1,0 +1,21 @@
+{
+	"actor": {    
+		"id": "@me"  
+	},
+	"verb": "post",
+	"title": "${post.target}",
+	"content": "[event.content]",
+	"object": {
+		"objectType": "note",
+		"id": "example.ibm.connect.004",
+		"displayName": "[event.object.displayName]",
+		"url": "https://davidsimpson.me/#event.object.url",
+		"summary": "[object.summary]"
+	},
+	"target": {
+	    "objectType": "note",
+	    "id": "example.youtube.aKdV5FvXLuI",
+	    "displayName": "[event.target.displayName]",
+	    "url": "https://davidsimpson.me/#event.target.url"
+	}	
+}	

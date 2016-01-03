@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Example File Menu</title>
+	<script>
+	window.onload = function () {
+		document.getElementById('fileMenu').innerHTML = location.search.substring(1, location.search.length).replace(/&/g, '<br>');
+	}
+	</script>
+</head>
+<body>
+	
+	<span id="fileMenu">Loading...</span>
+	
+</body>
+</html>

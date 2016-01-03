@@ -1,0 +1,14 @@
+{
+	"actor": {    
+		"id": "@me"  
+	},
+	"verb": "post",
+	"content": "[event.content]",
+	"object": {
+		"objectType": "note",
+		"id": "example.ibm.connect.001",
+		"displayName": "[event.object.displayName]",
+		"url": "https://davidsimpson.me/",
+		"summary": "[object.summary]"
+	}
+}	
