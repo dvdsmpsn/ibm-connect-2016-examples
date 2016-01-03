@@ -64,7 +64,7 @@ curl https://apps.collabservnext.com/connections/opensocial/oauth/rest/activitys
 
 **Result:**
 
-![activity-01.png]
+![activity](activity-01.png)
 
 ### 2. Basic Activity with title
 
@@ -79,7 +79,7 @@ curl https://apps.collabservnext.com/connections/opensocial/basic/rest/activitys
 
 **Result:**
 
-![activity-02.png]
+![activity](activity-02.png)
 
 ### 3. Activity with templated title
 
@@ -94,7 +94,7 @@ curl https://apps.collabservnext.com/connections/opensocial/basic/rest/activitys
 
 **Result:**
 
-![activity-03.png]
+![activity](activity-03.png)
 
 ### 4. Activity with templated title & target
 
@@ -110,9 +110,9 @@ curl https://apps.collabservnext.com/connections/opensocial/basic/rest/activitys
 
 **Result:**
 
-![activity-04.png]
+![activity](activity-04.png)
 
-![activity-04.standard-ee.png]
+![activity](activity-04.standard-ee.png)
 
 ### 5. Activity with templated title & rollup (doesn't work)
 
@@ -128,7 +128,7 @@ curl https://apps.collabservnext.com/connections/opensocial/basic/rest/activitys
 
 **Result:**
 
-![activity-05.png]
+![activity](activity-05.png)
 
 
 ### 6. Activity with generator
@@ -145,7 +145,7 @@ curl https://apps.collabservnext.com/connections/opensocial/basic/rest/activitys
 
 **Result:**
 
-![activity-06.png]
+![activity](activity-06.png)
 
 
 ### 7. Activity with basic HTML content
@@ -162,7 +162,7 @@ curl https://apps.collabservnext.com/connections/opensocial/basic/rest/activitys
 
 **Result:**
 
-![activity-07.png]
+![activity](activity-07.png)
 
 
 ### 8. Activity with opensocial/embedded experience
@@ -179,4 +179,4 @@ curl https://apps.collabservnext.com/connections/opensocial/basic/rest/activitys
 
 **Result:**
 
-![activity-08.png]
+![activity](activity-08.png)
