@@ -180,3 +180,25 @@ curl https://apps.collabservnext.com/connections/opensocial/basic/rest/activitys
 **Result:**
 
 ![activity](activity-08.png)
+
+
+### 9. Putting it all together
+
+
+````
+curl https://apps.collabservnext.com/connections/opensocial/basic/rest/activitystreams/urn:lsid:lconn.ibm.com:communities.community:$COMMUNITY_UUID/@all/@all \
+     --user $USERNAME:$PASSWORD \
+     -X POST -L -H "Content-type: application/json" \
+     --data-binary @activity-09.json \
+     -i -v --insecure
+````
+
+
+**Result:**
+
+![activity](activity-09.png)
+
+HTML support is limited. All attributes are stripped. For layout, you have to resort to tables. Yikes!
+
+
+
