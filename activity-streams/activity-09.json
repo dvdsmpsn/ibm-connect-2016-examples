@@ -1,7 +1,7 @@
 {
 	"generator": {
 		"image": { 
-			"url": "https://dl.dropboxusercontent.com/u/658119/ibm-connect-2016/activity-streams/cloud-embedded-experience/icon.png"
+			"url": "https://cdn.rawgit.com/dvdsmpsn/ibm-connect-2016-examples/master/activity-streams/cloud-embedded-experience/icon.png"
 		},
 	    "id": "example.ee.youtube",
 	    "displayName": "YouTube",
