@@ -1,6 +1,6 @@
+# [Connect 2016](http://www-01.ibm.com/software/collaboration/events/connect/)
 
-
-# Examples for IBM Connections Cloud
+## Examples for IBM Connections Cloud
 
 
 - [Activity Streams](./activity-streams)
