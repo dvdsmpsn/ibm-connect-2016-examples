@@ -1,6 +1,12 @@
 # IBM Connections Cloud Activity Streams
 
 
+## Some initial setup
+
+Rather than exposing user credentials in a presentation, we set them at the beginning and forget them.
+
+We're posting to the activity stream for a community app, so set the UUID first too.
+
 ````
 
 # for Basic Auth
@@ -14,9 +20,6 @@ export BEARER=******************************************************************
 # Your Couumnity UUID
 export COMMUNITY_UUID=bcca6081-d575-499f-829b-9a81550fa612
 
-
-
-cd ~/Dropbox/Public/ibm-connect-2016/activity-streams ## Or wherever you cloned this repo
 ````
 
 
