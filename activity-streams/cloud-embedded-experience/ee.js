@@ -27,15 +27,15 @@
  * See: https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/String/endsWith
  */
 if (!String.prototype.endsWith) {
-  String.prototype.endsWith = function(searchString, position) {
-      var subjectString = this.toString();
-      if (typeof position !== 'number' || !isFinite(position) || Math.floor(position) !== position || position > subjectString.length) {
-        position = subjectString.length;
-      }
-      position -= searchString.length;
-      var lastIndex = subjectString.indexOf(searchString, position);
-      return lastIndex !== -1 && lastIndex === position;
-  };
+	String.prototype.endsWith = function(searchString, position) {
+		var subjectString = this.toString();
+		if (typeof position !== 'number' || !isFinite(position) || Math.floor(position) !== position || position > subjectString.length) {
+			position = subjectString.length;
+		}
+		position -= searchString.length;
+		var lastIndex = subjectString.indexOf(searchString, position);
+		return lastIndex !== -1 && lastIndex === position;
+	};
 }
 
 
@@ -78,8 +78,7 @@ $(function(){
 				if (event.origin.endsWith('.collabservnext.com') || event.origin.endsWith('.collabserv.com')) {
 					var data = JSON.parse(event.data);
 					console.log('Event Data:', data);
-					Connect2016.embeddedExperience.loadData(data);								
-
+					Connect2016.embeddedExperience.loadData(data);									
 				} else {
 					console.log(' ++ Event from Unsupported Domain ' + event.origin);
 				}
@@ -95,23 +94,23 @@ $(function(){
 			}	
 		}
 	};
-
-
+	
+	
 	Connect2016.embeddedExperience.loadMessages();
-
+	
 	
 	/*********************
 	 * TESTING LOGIC HERE
 	 *********************/
-    if (window.top === window.self) {
-        // for testing, load example data
-        Connect2016.embeddedExperience.loadData({
+	if (window.top === window.self) {
+		// for testing, load example data
+		Connect2016.embeddedExperience.loadData({
 			context: {
 				customPayload: {
-				    "videoId": "aKdV5FvXLuI",
+					"videoId": "aKdV5FvXLuI",
 					"title": "DR does Alphabet Aerobics"
 				}
 			}
 		});
-    }	
+	}	
 });	

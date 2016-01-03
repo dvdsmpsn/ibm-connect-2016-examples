@@ -26,7 +26,7 @@
 		 		    "videoId": "aKdV5FvXLuI",
 					"title": "DR Does Alphabet Aerobics"
 		 		 },
-	             "url" : "https://dl.dropboxusercontent.com/u/658119/ibm-connect-2016/activity-streams/cloud-embedded-experience/ee.html",
+	             "url" : "https://cdn.rawgit.com/dvdsmpsn/ibm-connect-2016-examples/master/activity-streams/cloud-embedded-experience/ee.html",
 	             "debug" : true, 
 				 "height": 245,
 				 "width": 370 
