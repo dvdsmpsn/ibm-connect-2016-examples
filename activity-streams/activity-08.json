@@ -19,18 +19,18 @@
 	    "url": "https://davidsimpson.me/#event.target.url"
 	},
 	"openSocial": { 
-	     "embed": { 
-	         "gadget": "https://apps.collabservnext.com/connections/resources/web/com.ibm.social.ee.cloud/cloudee.xml", 
-	         "context": { 
-		 		 "customPayload": {
-		 		    "videoId": "aKdV5FvXLuI",
+	    "embed": { 
+			"gadget": "https://apps.collabservnext.com/connections/resources/web/com.ibm.social.ee.cloud/cloudee.xml", 
+			"context": { 
+				"customPayload": {
+					"videoId": "aKdV5FvXLuI",
 					"title": "DR Does Alphabet Aerobics"
-		 		 },
-	             "url" : "https://cdn.rawgit.com/dvdsmpsn/ibm-connect-2016-examples/master/activity-streams/cloud-embedded-experience/ee.html",
-	             "debug" : true, 
-				 "height": 245,
-				 "width": 370 
-	         } 
-	     } 
-	 } 		
+				},
+				"url" : "https://cdn.rawgit.com/dvdsmpsn/ibm-connect-2016-examples/master/activity-streams/cloud-embedded-experience/ee.html",
+				"debug" : true, 
+				"height": 245,
+				"width": 370 
+			} 
+		} 
+	} 		
 }	
