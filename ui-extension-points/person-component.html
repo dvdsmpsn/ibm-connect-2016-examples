@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Example Person Component</title>
+</head>
+<body>
+	
+  	<div id="connections-banner" class="lotusui30 lotusui30_body lotusui30_fonts scloud3"></div>
+	
+	<div id="contactId">Loading...</div>
+
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+	<script>
+		$(function(){
+			
+			// Connections Header
+			var connectionsCloudHostname = 'apps.collabservnext.com'; // Change this as required	
+			if ($('#connections-banner').length > 0) {
+			  $('head').append(
+			    '<link rel="stylesheet" href="//' + connectionsCloudHostname + '/theming/theme/css/3" type="text/css" />' +
+			    '<script src="//' + connectionsCloudHostname + '/navbar/banner/partner/connections-banner?oneui=3"><\/script>'
+			  );
+			}
+			
+			// Display query parameters
+			$('#contactId').html( location.search.substring(1, location.search.length) );
+		});	
+	</script>	
+</body>
+</html>
