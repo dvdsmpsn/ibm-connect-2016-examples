@@ -460,16 +460,14 @@
 	
 	
 	<script>
-		$(function(){
-			var connectionsCloudHostname = 'apps.collabservnext.com'; // Change this as required
-	
-			if ($('#connections-banner').length > 0) {
-			  $('head').append(
-			    '<link rel="stylesheet" href="//' + connectionsCloudHostname + '/theming/theme/css/3" type="text/css" />' +
-			    '<script src="//' + connectionsCloudHostname + '/navbar/banner/partner/connections-banner?oneui=3"><\/script>'
-			  );
-			}
-		});	
+		var connectionsCloudHostname = 'apps.collabservnext.com'; // Change this as required
+
+		if ($('#connections-banner').length > 0) {
+		  $('head').append(
+		    '<link rel="stylesheet" href="//' + connectionsCloudHostname + '/theming/theme/css/3" type="text/css" />' +
+		    '<script src="//' + connectionsCloudHostname + '/navbar/banner/partner/connections-banner?oneui=3"><\/script>'
+		  );
+		}
 	</script>
 
 </body>
