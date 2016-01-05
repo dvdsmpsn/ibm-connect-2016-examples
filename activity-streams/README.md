@@ -17,7 +17,7 @@ export PASSWORD=******
 export BEARER=****************************************************************************************************
 
 
-# Your Couumnity UUID
+# Your Community UUID
 export COMMUNITY_UUID=bcca6081-d575-499f-829b-9a81550fa612
 
 ````

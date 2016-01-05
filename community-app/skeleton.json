@@ -7,7 +7,7 @@
       "defId": "Connect 2016 Example App",
       "showInPalette": "true",
       "primaryWidget": "true",
-      "modes": "view fullpage",
+      "modes": "view",
       "themes": "wpthemeThinwpthemeNarrowwpthemeWidewpthemeBanner",
       "url": "https://apps.collabservnext.com/connections/resources/web/com.ibm.social.urliWidget.web.resources/widget/urlWidget.xml",
       "itemSet": [  

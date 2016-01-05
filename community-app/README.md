@@ -16,14 +16,12 @@ Use the same host name that you specified in the UrlWidget.json file.
 export USERNAME=david@appfusions.com
 export PASSWORD=******
 
-
-cd ~/Dropbox/Public/ibm-connect-2016/community-app
-
 curl --user $USERNAME:$PASSWORD \
     https://apps.collabservnext.com/appregistry/api/v1/extensions/ \
     -X POST  -L -H "Content-type: application/json" \
     --data-binary @skeleton.json \
     -i -v --insecure
+	
 ````	
 
 
