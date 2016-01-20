@@ -96,6 +96,24 @@ GET https://apps.collabservnext.com/appregistry/api/v1/extensions/
 ````
 
 
+## Installing Wolfenstein 3D
+
+
+
+
+````
+# for Basic Auth
+export USERNAME=david@appfusions.com
+export PASSWORD=******
+
+curl --user $USERNAME:$PASSWORD \
+    https://apps.collabservnext.com/appregistry/api/v1/extensions/ \
+    -X POST  -L -H "Content-type: application/json" \
+    --data-binary @wolfenstein.json \
+    -i -v --insecure	
+````	
+
+
 # Using Community Apps
 
 After ~5 minutes, go to your community and the app should be there. I've not seen this in real life yet.
@@ -109,3 +127,6 @@ curl --user USERNAME:PASSWORD \
     -X DELETE  -L -H "Content-type: application/json" \
     -i -v --insecure
 ````	
+
+
+
