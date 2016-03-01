@@ -12,7 +12,7 @@
       "url": "https://YOUR_SERVER_BASE_URL_HERE/connections/resources/web/com.ibm.social.urliWidget.web.resources/widget/urlWidget.xml",
       "itemSet": [  
          {  
-            "value": "CHANGE ME",
+            "value": "URL_OF_YOUR_COMMUNITY_APP_HOSTED_ELSEWHERE_BY_YOU",
             "name": "url"
          },
          {  
