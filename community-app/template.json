@@ -1,0 +1,28 @@
+{  
+   "name": "CHANGE ME - REALLY OUGHT TO BE UNIQUE",
+   "description": "CHANGE ME",
+   "type": "community_widget",
+   "urls": {},
+   "payload": {  
+      "defId": "CHANGE ME - BUT BE UNIQUE",
+      "showInPalette": "true",
+      "primaryWidget": "true",
+      "modes": "view",
+      "themes": "wpthemeThinwpthemeNarrowwpthemeWidewpthemeBanner",
+      "url": "https://YOUR_SERVER_BASE_URL_HERE/connections/resources/web/com.ibm.social.urliWidget.web.resources/widget/urlWidget.xml",
+      "itemSet": [  
+         {  
+            "value": "CHANGE ME",
+            "name": "url"
+         },
+         {  
+            "value": "100%",
+            "name": "width"
+         },
+         {  
+            "value": "400px",
+            "name": "height"
+         }
+      ]
+   }
+}
