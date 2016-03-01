@@ -4,7 +4,7 @@
    "type": "community_widget",
    "urls": {},
    "payload": {  
-      "defId": "CHANGE ME - BUT BE UNIQUE",
+      "defId": "CHANGE ME - MUST BE UNIQUE",
       "showInPalette": "true",
       "primaryWidget": "true",
       "modes": "view",
