@@ -47,12 +47,15 @@
 
 	<h2>Some testing for sending messages back</h2>
 
+	<p>These links should allow us to send the height we want for the community app, allowing IBM Connections to resize the iframe</p>
 	<ul>
 		<li><a href="javascript:parent.postMessage('setHeight|' + widgetInstanceId +'|200px', '*');">200px</a></li>
 		<li><a href="javascript:parent.postMessage('setHeight|' + widgetInstanceId +'|400px', '*');">400px</a></li>
 		<li><a href="javascript:parent.postMessage('setHeight|' + widgetInstanceId +'|600px', '*');">600px</a></li>		
 		<li><a href="javascript:parent.postMessage('setHeight|' + widgetInstanceId +'|800px', '*');">800px</a></li>		
 	</ul>
+	
+	<p>Obvioulsy, rather than sepcifying a fixed height, we could calculate the height of the page content and then send that to the parent page instead</p>
 
 </body>
 </html>
