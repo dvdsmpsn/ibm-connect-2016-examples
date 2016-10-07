@@ -17,7 +17,7 @@
 		}
 	</style>
 	<script>
-		var communityUuid = 'COMMUNITY_UUID_NOT_SET';
+		var widgetInstanceId = 'WIDGET_INSTANCE_ID_NOT_SET';
 		window.onload = function() {
 			document.getElementById("host").innerHTML = location.host;
 			try {
@@ -27,8 +27,8 @@
 					console.log('Got msg', event.data);
 					document.getElementById('contextId').innerHTML = JSON.stringify(event.data, null, 2);
 					
-					if (event.data && event.data.source && event.data.source.resourceId) {
-						communityUuid = event.data.source.resourceId;
+					if (event.data && event.data.source && event.data.source.widgetInstanceId) {
+						widgetInstanceId = event.data.source.widgetInstanceId;
 					}
 				}, false);
 			} catch (e) {
@@ -47,10 +47,10 @@
 
 	<h2>Some testing for sending messages back</h2>
 	<ul>
-		<li><a href="javascript:postMessage('setHeight|' + communityUuid +'|200px');">200px</a></li>
-		<li><a href="javascript:postMessage('setHeight|' + communityUuid +'|400px');">400px</a></li>
-		<li><a href="javascript:postMessage('setHeight|' + communityUuid +'|600px');">600px</a></li>		
-		<li><a href="javascript:postMessage('setHeight|' + communityUuid +'|800px');">800px</a></li>		
+		<li><a href="javascript:postMessage('setHeight|' + widgetInstanceId +'|200px', '*');">200px</a></li>
+		<li><a href="javascript:postMessage('setHeight|' + widgetInstanceId +'|400px', '*');">400px</a></li>
+		<li><a href="javascript:postMessage('setHeight|' + widgetInstanceId +'|600px', '*');">600px</a></li>		
+		<li><a href="javascript:postMessage('setHeight|' + widgetInstanceId +'|800px', '*');">800px</a></li>		
 	</ul>
 </body>
 </html>
