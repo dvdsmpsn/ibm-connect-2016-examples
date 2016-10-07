@@ -46,11 +46,13 @@
 	<pre id="contextId"></pre>
 
 	<h2>Some testing for sending messages back</h2>
+
 	<ul>
-		<li><a href="javascript:postMessage('setHeight|' + widgetInstanceId +'|200px', '*');">200px</a></li>
-		<li><a href="javascript:postMessage('setHeight|' + widgetInstanceId +'|400px', '*');">400px</a></li>
-		<li><a href="javascript:postMessage('setHeight|' + widgetInstanceId +'|600px', '*');">600px</a></li>		
-		<li><a href="javascript:postMessage('setHeight|' + widgetInstanceId +'|800px', '*');">800px</a></li>		
+		<li><a href="javascript:parent.postMessage('setHeight|' + widgetInstanceId +'|200px', '*');">200px</a></li>
+		<li><a href="javascript:parent.postMessage('setHeight|' + widgetInstanceId +'|400px', '*');">400px</a></li>
+		<li><a href="javascript:parent.postMessage('setHeight|' + widgetInstanceId +'|600px', '*');">600px</a></li>		
+		<li><a href="javascript:parent.postMessage('setHeight|' + widgetInstanceId +'|800px', '*');">800px</a></li>		
 	</ul>
+
 </body>
 </html>
