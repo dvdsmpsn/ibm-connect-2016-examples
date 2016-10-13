@@ -29,8 +29,6 @@
 				
 							if (event.data && event.data.source && event.data.source.widgetInstanceId) {
 								widgetInstanceId = event.data.source.widgetInstanceId;
-								
-								
 							}
 						}, false);
 					} catch (e) {
@@ -42,6 +40,7 @@
 					
 					
 					$('.panel-group').on('hidden.bs.collapse shown.bs.collapse', function (event) {
+            console.log(event.type);
 						parent.postMessage('setHeight|' + widgetInstanceId +'|' + $('.container').height() + 'px', '*');
 					});
           
