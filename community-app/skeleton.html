@@ -29,7 +29,8 @@
         
               if (event.data && event.data.source && event.data.source.widgetInstanceId) {
                 widgetInstanceId = event.data.source.widgetInstanceId;
-              }
+           	parent.postMessage('setHeight|' + widgetInstanceId +'|' + $('.container').height() + 'px', '*');
+             }
             }, false);
           } catch (e) {
             console.log(e);
