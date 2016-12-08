@@ -92,8 +92,15 @@ Set-Cookie: BIGipServer~CA1A~CA1A-WebSEAL-80=422604810.20480.0000; path=/
 If all has gone well, I'd expect the app you added to be listed in:
 
 ````
-GET https://apps.collabservnext.com/appregistry/api/v1/extensions/
+GET https://apps.collabservnext.com/appregistry/api/v1/extensions?limit=500
 ````
+The `?limit=500` query string ensures that you see all (or at least the 500) of the extensions installed for your organisation.
+
+**Update:** Instead you could view the apps here -- https://apps.collabservnext.com/appregistry/#/displayApps -- but beware as it's not fully baked, so not all the apps show up all the time. 
+
+If you are unsure, https://apps.collabservnext.com/appregistry/api/v1/extensions?limit=500 is the source of truth.
+
+Also, if you accidentally add 2 or more apps with the same `defId`, things do not go well in the UI, so go to https://apps.collabservnext.com/appregistry/api/v1/extensions?limit=500, find the `extid` and delete the excess apps (see below).
 
 
 ## Installing Wolfenstein 3D
