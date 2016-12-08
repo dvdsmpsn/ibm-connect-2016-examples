@@ -104,7 +104,8 @@ The `?limit=500` query string ensures that you see all (or at least the 500) of 
 
 If you are unsure, https://apps.collabservnext.com/appregistry/api/v1/extensions?limit=500 is the source of truth.
 
-Also, if you accidentally add 2 or more apps with the same `defId`, things do not go well in the UI, so go to https://apps.collabservnext.com/appregistry/api/v1/extensions?limit=500, find the `extid` and delete the excess apps (see below).
+### `payload.defId` in your app JSON should be a unique identifier
+Also, if you accidentally add 2 or more apps with the same `payload.defId`, things do not go well in the UI, so go to https://apps.collabservnext.com/appregistry/api/v1/extensions?limit=500, find the `extid` and delete the excess apps (see below).
 
 
 ## Installing Wolfenstein 3D
