@@ -87,6 +87,10 @@ Set-Cookie: BIGipServer~CA1A~CA1A-WebSEAL-80=422604810.20480.0000; path=/
 
 ````	
 
+**Update:** You can now install apps using a UI at https://apps.collabservnext.com/appregistry/#/commonExtension/ 
+
+This method using `curl` is still entirely valid though.
+
 ## Check it's installed
 
 If all has gone well, I'd expect the app you added to be listed in:
