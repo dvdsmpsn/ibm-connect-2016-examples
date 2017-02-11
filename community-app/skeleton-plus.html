@@ -36,22 +36,20 @@
 			}
 			parent.postMessage('appReady', "*");
 		}
-	</script>
 
-	
-	
-	<script>
 		function openWindow(urlToOpen) {
 			parent.postMessage({
 				'command' : 'openWindow',
-				'url' : urlToOpen
+				'url' : urlToOpen,
+				'widgetInstanceId': widgetInstanceId
 			}, '*');
 		}
 		function openDialog(title, iFrameUrl) {
 			parent.postMessage( {
 				'command' : 'appDialog',
 				'title' : title,
-				'iFrameUrl' : iFrameUrl
+				'iFrameUrl' : iFrameUrl,
+				'widgetInstanceId': widgetInstanceId
 			}, '*');
 		}
 	</script>
