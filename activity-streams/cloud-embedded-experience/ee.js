@@ -113,4 +113,14 @@ $(function(){
 			}
 		});
 	}	
+	
+	$('#resizeEe').on('click', function (e) {
+		e.preventDefault();
+		var height = $('#eeHeight').val();
+		
+		parent.postMessage({
+			command: 'adjustHeight',
+			height: height			
+		});
+	});
 });	
