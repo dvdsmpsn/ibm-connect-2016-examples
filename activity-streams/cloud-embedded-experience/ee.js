@@ -121,6 +121,6 @@ $(function(){
 		parent.postMessage({
 			command: 'adjustHeight',
 			height: height			
-		});
+		}, '*');
 	});
 });	
