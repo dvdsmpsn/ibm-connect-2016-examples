@@ -59,6 +59,14 @@
 		'widgetInstanceId': widgetInstanceId	    
 	    }, '*');
 	  });
+	  $('.open-window').on('click', function (e) {
+	    e.preventDefault();
+	    parent.postMessage({
+		'command' : 'openWindow',
+	   	'url' : this.href,
+		'widgetInstanceId': widgetInstanceId	    
+	    }, '*');
+	  });		
         });
       }
     </script>
@@ -76,7 +84,9 @@
           <pre id="contextId"></pre>
 	
 	  <p><a class="btn btn-primary app-dialog" href="https://davidsimpson.me" data-dialog-width="75%" data-dialog-height="75%">Open dialog</a></p>
-        </div>
+          <p><a class="btn btn-primary open-window" href="https://davidsimpson.me" >Open new window</a> - Sandbox escaped</p>
+
+	</div>
       </div>
       <div class="row">
         <div class="col-xs-12">
